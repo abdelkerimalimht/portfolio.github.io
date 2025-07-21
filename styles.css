@@ -1,3 +1,168 @@
-.title {
-    color: green;
+/* Style général */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* En-tête */
+header {
+  background-color: #004080;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Section de présentation */
+.hero {
+  text-align: center;
+  padding: 2rem;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+/* Compétences */
+.skills {
+  padding: 1rem 2rem;
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills li {
+  background: #004080;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+
+/* Liens pro */
+.links {
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Pied de page */
+footer {
+  background-color: #364c8d;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+    .projects {
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.project-card {
+  background-color: #e6f0ff;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-left: 5px solid #004080;
+  border-radius: 8px;
+}
+
+.project-card h3 {
+  margin-top: 0;
+    .contact {
+  padding: 2rem;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 0.7rem;
+  background-color: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+    .project-card {
+  display: flex;
+  gap: 1rem;
+  background-color: #e6f0ff;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-left: 5px solid #004080;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.project-img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.project-info {
+  flex: 1;
+}
+.project-card {
+  display: flex;
+  gap: 1rem;
+  background-color: #e6f0ff;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-left: 5px solid #004080;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.project-img {
+  width: 20px;
+  height: 20px
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.project-info {
+  flex: 1;
+}
+
+}
+
+}
+    
+
+
 }
